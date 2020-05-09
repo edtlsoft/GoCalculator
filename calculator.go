@@ -9,7 +9,7 @@ import (
 
 type Calculator struct {}
 
-func (Calculator) operate(number1 string, number2 string, operador string) int {
+func (Calculator) Operate(number1 string, number2 string, operador string) int {
 	response := 0
 
 	operador1 := parsear(number1) 
