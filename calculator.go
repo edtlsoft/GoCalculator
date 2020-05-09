@@ -7,9 +7,9 @@ import (
 	"strconv"
 )
 
-type Calculadora struct {}
+type Calculator struct {}
 
-func (Calculadora) operate(number1 string, number2 string, operador string) int {
+func (Calculator) operate(number1 string, number2 string, operador string) int {
 	response := 0
 
 	operador1 := parsear(number1) 
